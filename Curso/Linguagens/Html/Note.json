@@ -1,0 +1,44 @@
+anatomia {
+    HTML:
+
+    <h1>Titulo</h1>
+    <p>Texto</p>
+    <img src= "google.jpg" alt="Imagem de exemplo">
+
+    <h1></h1> = tags
+    Titulo = conteúdo
+    src="" = parâmetro
+    google.jpg = valor
+
+    CSS:
+
+    h1{
+        font-family: Arial;
+        font-size: 20pt;
+        color: blue;
+    }
+
+    h1 = seletor
+    font-family: Arial; = declaração
+    font-size = propriedade
+    blue = valor
+}
+
+estrutura {
+    HTML:
+    <!DOCTYPE html> //dizer que é html5
+    <html lang="pt-br"> //abertura da tag html e definindo o idioma
+        <head> //cabeça da página
+            <meta charset="UTF-8"> //definindo o tipo de caractere
+            <meta name= "viewport" content= "width=device-width, initial-scale=1.0> //definindo o tamanho da tela
+            <title>Document</title> //definindo o título da página
+        </head>
+        <body> //corpo da pagina
+
+            <h1>Titulo</h1> //tag de título
+            <p>Texto</p> //tag de parágrafo
+
+            <img src= "google.jpg" alt="Imagem de exemplo"> //tag de imagem
+        </body>
+    </html> //fechamento da tag html
+}

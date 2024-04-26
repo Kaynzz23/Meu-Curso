@@ -25,3 +25,28 @@ React:
 
 https://react.dev
 https://www.youtube.com/watch?v=FXqX7oof0I4&list=PLnDvRpP8BneyVA0SZ2okm-QBojomniQVO
+
+
+HTML:
+
+<h1>Titulo</h1>
+<p>Texto</p>
+<img src= "google.jpg" alt="Imagem de exemplo">
+
+<h1></h1> = tags
+Titulo = conteúdo
+src="" = parâmetro
+google.jpg = valor
+
+CSS:
+
+h1{
+    font-family: Arial;
+    font-size: 20pt;
+    color: blue;
+}
+
+h1 = seletor
+font-family: Arial; = declaração
+font-size = propriedade
+blue = valor
