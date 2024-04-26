@@ -42,3 +42,23 @@ estrutura {
         </body>
     </html> //fechamento da tag html
 }
+
+Tags {
+
+    HTML {
+
+        <h1></h1> //tag de titulo que vai até o h6, quanto maior o numero menor o titulo
+        <p></p> //tag de parágrafo
+        <img src= "" alt=""> //tag de imagem
+        <hr> //tag de linha horizontal
+        <br> //tag de quebra de linha
+
+    }
+
+    CSS {
+
+
+
+    }
+
+}
