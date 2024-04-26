@@ -52,6 +52,9 @@ Tags {
         <img src= "" alt=""> //tag de imagem
         <hr> //tag de linha horizontal
         <br> //tag de quebra de linha
+        &lt; //tag de abertura
+        &#x1F60A; //emoji
+
 
     }
 
