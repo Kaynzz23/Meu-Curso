@@ -47,7 +47,7 @@ Tags {
 
     HTML {
 
-        <h1></h1> //tag de titulo que vai até o h6, quanto maior o numero menor o titulo
+        <h1></h1> //tag de titulo que vai até o h6, quanto maior o numero menor o nivel do titulo
         <p></p> //tag de parágrafo
         <img src= "" alt=""> //tag de imagem
         <hr> //tag de linha horizontal
