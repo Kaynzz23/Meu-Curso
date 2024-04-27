@@ -54,6 +54,17 @@ Tags {
         <br> //tag de quebra de linha
         &lt; //simbolos
         &#x1F60A; //emoji
+        link {
+            {
+            //rel = relação
+            //stylesheet = folha de estilo
+            //href = link
+            //type = tipo
+            //image/x-icon = imagem de icone
+            }
+            <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> //tag de favicon
+            <link rel="stylesheet" href="style.css"> //tag de css
+        }
     }
 
     CSS {
