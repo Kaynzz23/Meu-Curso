@@ -13,40 +13,41 @@ NPM:
 procurar
 
 Github/Git: TERMINADO
-
 https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA
 
 Tailwind
-
+https://v2.tailwindcss.com/docs
 https://tailwindcss.com
-https://www.youtube.com/watch?v=dHwY5lRfkoQ
+https://www.youtube.com/watch?v=1eLaBow7Zbo&list=PLcoYAcR89n-r1m-tMfV4qndrRWpT_rb9u
 
 React:
-
 https://react.dev
 https://www.youtube.com/watch?v=FXqX7oof0I4&list=PLnDvRpP8BneyVA0SZ2okm-QBojomniQVO
+https://www.trilha.info/roadmap/react
+React Native:
+https://www.youtube.com/playlist?list=PLdDT8if5attEd4sRnZBIkNihR-_tE612_
 
+Bootstrap:
+https://www.youtube.com/playlist?list=PLnDvRpP8Bnexu5wvxogy6N49_S5Xk8Cze
 
-HTML:
+Angular:
+https://www.youtube.com/playlist?list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G
 
-<h1>Titulo</h1>
-<p>Texto</p>
-<img src= "google.jpg" alt="Imagem de exemplo">
+node.js:
+procurar
 
-<h1></h1> = tags
-Titulo = conteúdo
-src="" = parâmetro
-google.jpg = valor
+PostgreSQL:
+https://www.youtube.com/watch?v=Z_SPrzlT4Fc&list=PLucm8g_ezqNoAkYKXN_zWupyH6hQCAwxY
 
-CSS:
+MySQL:
+https://www.cursoemvideo.com/curso/mysql/
 
-h1{
-    font-family: Arial;
-    font-size: 20pt;
-    color: blue;
-}
+API's:
+procurar
 
-h1 = seletor
-font-family: Arial; = declaração
-font-size = propriedade
-blue = valor
+Linux:
+https://www.cursoemvideo.com/curso/linux/
+
+AWS:
+https://www.youtube.com/watch?v=j6yImUbs4OA&list=PLOF5f9_x-OYUaqJar6EKRAonJNSHDFZUm
+
