@@ -69,6 +69,9 @@ link --==--==--==--==--==--==--==--==
 
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> //tag de favicon
 <link rel="stylesheet" href="style.css">                          //tag de css
-/link --==--==--==--==--==--==--==--==
+--==--==--==--==--==--==--==--==--==--
+Formatação --==--==--==--==--==--==--==--==--==
+<em></em>         // deixa o texto em ênfase
+<strong></strong> // deixa o texto em Destaque
 
 CSS ========================================================================
