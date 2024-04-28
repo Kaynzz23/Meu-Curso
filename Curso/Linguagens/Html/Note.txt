@@ -71,7 +71,17 @@ link --==--==--==--==--==--==--==--==
 <link rel="stylesheet" href="style.css">                          //tag de css
 --==--==--==--==--==--==--==--==--==--
 Formatação --==--==--==--==--==--==--==--==--==
-<em></em>         // deixa o texto em ênfase
-<strong></strong> // deixa o texto em Destaque
+<em></em>         //Deixa o texto em ênfase
+<strong></strong> //Deixa o texto em Destaque
+<mark></mark>     //Deixa o texto marcado
+<small></small>   //Deixa o texto pequeno
+<del></del>       //Faz um risco no texto
+<ins></ins>       //Sublinha o texto
+<sup></sup>       //Sobrescreve o texto
+<sub></sub>       //Subscreve o texto
+--==--==--==--==--==--==--==--==--==--==--==--==
 
 CSS ========================================================================
+
+background-color: ; //cor de fundo
+color: ;            //cor do texto
