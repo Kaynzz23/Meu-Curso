@@ -1,93 +1,114 @@
-Anatomia =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Anatomia =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- {
 
-HTML ========================================================================
+    HTML ========================================================================
 
-<h1>Titulo</h1>
-<p>Texto</p>
-<img src= "google.jpg" alt="Imagem de exemplo">
+    <h1>Titulo</h1>
+    <p>Texto</p>
+    <img src= "google.jpg" alt="Imagem de exemplo">
 
-<h1></h1>|<p></p> = tags
-Titulo|Texto = conteúdo
-src=""|alt="" = parâmetro
-google.jpg|Imagem de exemplo = valor
+    <h1></h1>|<p></p> = tags
+    Titulo|Texto = conteúdo
+    src=""|alt="" = parâmetro
+    google.jpg|Imagem de exemplo = valor
 
-CSS ========================================================================
+    CSS ========================================================================
 
-h1{
-    font-family: Arial;
-    font-size: 20pt;
-    color: blue;
+    h1{
+        font-family: Arial;
+        font-size: 20pt;
+        color: blue;
+    }
+
+    h1 = seletor
+    font-family: Arial; = declaração
+    font-size = propriedade
+    blue = valor
 }
 
-h1 = seletor
-font-family: Arial; = declaração
-font-size = propriedade
-blue = valor
+Estrutura -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- {
 
+    HTML
 
-Estrutura -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+    <!DOCTYPE html> //dizer que é html5
+    <html lang="pt-br"> //abertura da tag html e definindo o idioma
+       <head> //cabeça da página
+           <meta charset="UTF-8"> //definindo o tipo de caractere
+           <meta name= "viewport" content= "width=device-width, initial-scale=1.0> //definindo o tamanho da tela
+         <title>Document</title> //definindo o título da página
+      </head>
+      <body> //corpo da pagina
 
-HTML
+            <h1>Titulo</h1> //tag de título
+            <p>Texto</p> //tag de parágrafo
 
-<!DOCTYPE html> //dizer que é html5
-<html lang="pt-br"> //abertura da tag html e definindo o idioma
-    <head> //cabeça da página
-        <meta charset="UTF-8"> //definindo o tipo de caractere
-        <meta name= "viewport" content= "width=device-width, initial-scale=1.0> //definindo o tamanho da tela
-        <title>Document</title> //definindo o título da página
-    </head>
-    <body> //corpo da pagina
+            <img src= "google.jpg" alt="Imagem de exemplo"> //tag de imagem
+      </body>
+    </html> //fechamento da tag html
+}
 
-        <h1>Titulo</h1> //tag de título
-        <p>Texto</p> //tag de parágrafo
+Tags -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- {
 
-        <img src= "google.jpg" alt="Imagem de exemplo"> //tag de imagem
-    </body>
-</html> //fechamento da tag html
+    HTML ========================================================================
 
+    link --==--==--==--==--==--==--==--==
+    ===================================
+    //rel = relação                  ||
+    //stylesheet = folha de estilo   ||
+    //href = link                    ||
+    //type = tipo                    ||
+    //image/x-icon = imagem de icone ||
+    ===================================
 
-Tags -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> //tag de favicon
+    <link rel="stylesheet" href="style.css">                          //tag de css
+    --==--==--==--==--==--==--==--==--==--==--==--==
+    Formatação --==--==--==--==--==--==--==--==--==
+    <em></em>                 //Deixa o texto em ênfase
+    <strong></strong>         //Deixa o texto em Destaque
+    <mark></mark>             //Deixa o texto marcado
+    <small></small>           //Deixa o texto pequeno
+    <del></del>               //Faz um risco no texto
+    <ins></ins>               //Sublinha o texto
+    <sup></sup>               //Sobrescreve o texto
+    <sub></sub>               //Subscreve o texto
+    <code></code>             //Coloca o texto em formado de Script
+    <pre></pre>               //adiciona o espaçamento do codigo no texto
+    <q></q>                   //Coloca o texto em uma citação simples
+    <blockquote></blockquote> //Coloca o texto em uma citação em bloco
+    <abbr title=""></abbr>    //adiciona um Significado a sigla
+    <bdo dir="rtl"></dbo>     //inverte o texto
+    --==--==--==--==--==--==--==--==--==--==--==--==
 
-HTML ========================================================================
+    Listas --==--==--==--==--==--==--==--==--==--==--
+    <ul></ul>                  //Lista não ordenada
+    <ol></ol>                  //Lista ordenada
+    <li></li>                  //item da lista
+    type-=-=-=-=-=-=--=-=-
+    ol-----------
+    1
+    a
+    A
+    I
+    i
+    ul-----------
+    disc
+    circle
+    square
+    -=-=-=-=-=-=-=-=-=-=-=-=
+    OBS: start="100" //faz a lista iniciar em um certo número
+    --==--==--==--==--==--==--==--==--==--==--==--==--
 
-<h1></h1>            //tag de titulo que vai até o h6, quanto maior o numero menor o nivel do titulo
-<p></p>              //tag de parágrafo
-<img src= "" alt=""> //tag de imagem
-<hr>                 //tag de linha horizontal
-<br>                 //tag de quebra de linha
-&lt;                 //simbolos
-&#x1F60A;            //emoji
+    <h1></h1>            //tag de titulo que vai até o h6, quanto maior o número menor o nivel do titulo
+    <p></p>              //tag de parágrafo
+    <img src= "" alt=""> //tag de imagem
+    <hr>                 //tag de linha horizontal
+    <br>                 //tag de quebra de linha
+    &lt;                 //simbolos
+    &#x1F60A;            //emoji
 
-link --==--==--==--==--==--==--==--==
-===================================
-//rel = relação                  ||
-//stylesheet = folha de estilo   ||
-//href = link                    ||
-//type = tipo                    ||
-//image/x-icon = imagem de icone ||
-===================================
+    CSS ========================================================================
 
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> //tag de favicon
-<link rel="stylesheet" href="style.css">                          //tag de css
---==--==--==--==--==--==--==--==--==--
-Formatação --==--==--==--==--==--==--==--==--==
-<em></em>                 //Deixa o texto em ênfase
-<strong></strong>         //Deixa o texto em Destaque
-<mark></mark>             //Deixa o texto marcado
-<small></small>           //Deixa o texto pequeno
-<del></del>               //Faz um risco no texto
-<ins></ins>               //Sublinha o texto
-<sup></sup>               //Sobrescreve o texto
-<sub></sub>               //Subscreve o texto
-<code></code>             //Coloca o texto em formado de Script
-<pre></pre>               //adiciona o espaçamento do codigo no texto
-<q></q>                   //Coloca o texto em uma citação simples
-<blockquote></blockquote> //Coloca o texto em uma citação em bloco
-<abbr title=""></abbr>    //adiciona um Significado a sigla
-<bdo dir="rtl"></dbo>     //inverte o texto
---==--==--==--==--==--==--==--==--==--==--==--==
+    background-color: ; //cor de fundo
+    color: ;            //cor do texto
 
-CSS ========================================================================
-
-background-color: ; //cor de fundo
-color: ;            //cor do texto
+}
