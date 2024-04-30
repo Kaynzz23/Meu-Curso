@@ -50,56 +50,56 @@ Tags -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- {
 
     HTML ========================================================================
 
-    link --==--==--==--==--==--==--==--==
-    ===================================
-    //rel = relação                  ||
-    //stylesheet = folha de estilo   ||
-    //href = link                    ||
-    //type = tipo                    ||
-    //image/x-icon = imagem de icone ||
-    ===================================
+    link --==--==--==--==--==--==--==--=={
+        ===================================
+        //rel = relação                  ||
+        //stylesheet = folha de estilo   ||
+        //href = link                    ||
+        //type = tipo                    ||
+        //image/x-icon = imagem de icone ||
+        ===================================
 
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> //tag de favicon
-    <link rel="stylesheet" href="style.css">                          //tag de css
-    --==--==--==--==--==--==--==--==--==--==--==--==
-    Formatação --==--==--==--==--==--==--==--==--==
-    <em></em>                 //Deixa o texto em ênfase
-    <strong></strong>         //Deixa o texto em Destaque
-    <mark></mark>             //Deixa o texto marcado
-    <small></small>           //Deixa o texto pequeno
-    <del></del>               //Faz um risco no texto
-    <ins></ins>               //Sublinha o texto
-    <sup></sup>               //Sobrescreve o texto
-    <sub></sub>               //Subscreve o texto
-    <code></code>             //Coloca o texto em formado de Script
-    <pre></pre>               //adiciona o espaçamento do codigo no texto
-    <q></q>                   //Coloca o texto em uma citação simples
-    <blockquote></blockquote> //Coloca o texto em uma citação em bloco
-    <abbr title=""></abbr>    //adiciona um Significado a sigla
-    <bdo dir="rtl"></dbo>     //inverte o texto
-    --==--==--==--==--==--==--==--==--==--==--==--==
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> //tag de favicon
+        <link rel="stylesheet" href="style.css">                          //tag de css
+    }--==--==--==--==--==--==--==--==--==--==--==--==
+    Formatação --==--==--==--==--==--==--==--==--=={
+        <em></em>                 //Deixa o texto em ênfase
+        <strong></strong>         //Deixa o texto em Destaque
+        <mark></mark>             //Deixa o texto marcado
+        <small></small>           //Deixa o texto pequeno
+        <del></del>               //Faz um risco no texto
+        <ins></ins>               //Sublinha o texto
+        <sup></sup>               //Sobrescreve o texto
+        <sub></sub>               //Subscreve o texto
+        <code></code>             //Coloca o texto em formado de Script
+        <pre></pre>               //adiciona o espaçamento do codigo no texto
+        <q></q>                   //Coloca o texto em uma citação simples
+        <blockquote></blockquote> //Coloca o texto em uma citação em bloco
+        <abbr title=""></abbr>    //adiciona um Significado a sigla
+        <bdo dir="rtl"></dbo>     //inverte o texto
+    }--==--==--==--==--==--==--==--==--==--==--==--==
 
-    Listas --==--==--==--==--==--==--==--==--==--==--
-    <ul></ul>                  //Lista não ordenada
-    <ol></ol>                  //Lista ordenada
-    <li></li>                  //item da lista
-    <dl></dl>                  //Lista de Definição
-    <dt></dt>                  //Termo
-    <dd></dd>                  //Descrição
-    type-=-=-=-=-=-=--=-=-
-    ol-----------
-    1
-    a
-    A
-    I
-    i
-    ul-----------
-    disc
-    circle
-    square
-    -=-=-=-=-=-=-=-=-=-=-=-=
-    OBS: start="100" //faz a lista iniciar em um certo número
-    --==--==--==--==--==--==--==--==--==--==--==--==--
+    Listas --==--==--==--==--==--==--==--==--==--==--{
+        <ul></ul>                  //Lista não ordenada
+        <ol></ol>                  //Lista ordenada
+        <li></li>                  //item da lista
+        <dl></dl>                  //Lista de Definição
+        <dt></dt>                  //Termo
+        <dd></dd>                  //Descrição
+        type-=-=-=-=-=-=--=-=-
+        ol-----------
+        1
+        a
+        A
+        I
+        i
+        ul-----------
+        disc
+        circle
+        square
+        -=-=-=-=-=-=-=-=-=-=-=-=
+        OBS: start="100" //faz a lista iniciar em um certo número
+    }--==--==--==--==--==--==--==--==--==--==--==--==--
 
     <h1></h1>            //tag de titulo que vai até o h6, quanto maior o número menor o nivel do titulo
     <p></p>              //tag de parágrafo
@@ -108,6 +108,9 @@ Tags -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- {
     <br>                 //tag de quebra de linha
     &lt;                 //simbolos
     &#x1F60A;            //emoji
+    <a href="https://youtube.com"></a>      //cria um link externo (adicione |target="_blank rel="external"| para abrir o link em outra guia use rel="nofollow" caso você não dê aval para a pagina)
+    <a href="pag002.html" rel=""></a>       //cria um link interno (adicione rel="next" caso queira ir pra proxima pagina. Ou rel="prev" para voltar pra pagina anterior)
+    
 
     CSS ========================================================================
 
