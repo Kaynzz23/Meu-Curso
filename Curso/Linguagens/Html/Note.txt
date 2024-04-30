@@ -83,6 +83,9 @@ Tags -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- {
     <ul></ul>                  //Lista não ordenada
     <ol></ol>                  //Lista ordenada
     <li></li>                  //item da lista
+    <dl></dl>                  //Lista de Definição
+    <dt></dt>                  //Termo
+    <dd></dd>                  //Descrição
     type-=-=-=-=-=-=--=-=-
     ol-----------
     1
