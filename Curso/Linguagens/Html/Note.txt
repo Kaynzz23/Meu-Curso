@@ -46,10 +46,8 @@ Estrutura -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- {
     </html> //fechamento da tag html
 }
 
-Tags -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- {
-
-    HTML ========================================================================
-
+Tags HTML -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- {
+   
     link --==--==--==--==--==--==--==--=={
         ===================================
         //rel = relação                  ||
@@ -110,12 +108,10 @@ Tags -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- {
     &#x1F60A;            //emoji
     <a href="https://youtube.com"></a>      //cria um link externo (adicione |target="_blank rel="external"| para abrir o link em outra guia use rel="nofollow" caso você não dê aval para a pagina)
     <a href="pag002.html" rel=""></a>       //cria um link interno (adicione rel="next" caso queira ir pra proxima pagina. Ou rel="prev" para voltar pra pagina anterior)
-    <a href="Arquivo.zip" rel=""></a>       // link de Download
-    
+    <a href="Arquivo.zip" rel=""></a>       // link de Download    
+}
 
-    CSS ========================================================================
-
+Tags CSS -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- {
     background-color: ; //cor de fundo
     color: ;            //cor do texto
-
 }
