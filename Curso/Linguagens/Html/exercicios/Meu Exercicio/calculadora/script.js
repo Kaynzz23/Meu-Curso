@@ -1,3 +1,4 @@
+let container = document.getElementsByClassName('container')
 let one = document.getElementsByClassName('one');
 let two = document.getElementsByClassName('two');
 let three = document.getElementsByClassName('three');
@@ -8,11 +9,11 @@ let seven = document.getElementsByClassName('seven');
 let eight = document.getElementsByClassName('eight');
 let nine = document.getElementsByClassName('nine');
 let zero = document.getElementsByClassName('zero');
-let zerozero = document.getElementsByClassName('zerozero');
+let zeroes = document.getElementsByClassName('zeroes');
 
-one.addEventListener('click', () => {
+one.onclick = function () {
     console.log('Button 1 was clicked');
-});
+};
 
 two.addEventListener('click', () => {
     console.log('Button 2 was clicked');
@@ -50,6 +51,6 @@ zero.addEventListener('click', () => {
     console.log('Button 0 was clicked');
 });
 
-zerozero.addEventListener('click', () => {
+zeroes.addEventListener('click', () => {
     console.log('Button 00 was clicked');
 });
