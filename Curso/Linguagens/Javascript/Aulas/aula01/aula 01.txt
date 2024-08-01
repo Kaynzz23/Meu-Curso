@@ -1,0 +1,26 @@
+variaveis:
+
+const, let, var
+
+regras:
+
+Podem começar com: Letra, $ ou _
+Não podem começar com números 
+É possível usar letras ou números
+É possível usar  acentos e símbolos 
+Não pode conter espaços 
+Não pode usar palavras que são comandos
+
+tipos primitivos:
+
+string //um conjunto de caracteres, tanto numeros(o js não reconhece como number) quanto letras
+number //números aceitos pelo js 
+    infinity
+    NaN
+boolean //true or false
+null //literalmente nada
+undefined // indefinido
+object
+    array
+function
+(use o comando typeof no node para saber qual tipo primitivo é)

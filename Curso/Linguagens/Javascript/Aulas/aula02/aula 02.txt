@@ -1,0 +1,35 @@
+como guardar o resultado de um window.prompt()? é simples só fazer da seguinte forma:
+
+const window = window.prompt('qual seu nome?')
+
+assim ele será guardado em uma variavel
+
+para usar a variavel:
+
+window.alert('é um grande prazer em te conhecer' + name)
+na parte (te conhecer' + name) é usado uma concatenação (+)
+ou você pode usar 
+window.alert(`é um grande prazer em te conhecer ${name}`) //usando crase
+
+converter de string para number:
+
+Number.parseInt(n) //para números inteiros
+Number.parseFloat(n) //para numeros reais
+Number(n) //o proprio js identifica se é inteiros ou reais
+
+converter number para string
+
+string(n)
+n.toString()
+
+formatação de string:
+
+var idade = 23
+
+'fulano tem ' + idade + 'anos' //com concatenação
+ou
+`fulano tem ${idade} anos` //com templantestring (`usar crase`)
+
+n.length //quantos caracteres a string tem
+n.toUpperCase() //coloca tudo em maiusculo
+n.tuLowerCase() //coloca tudo para minusculo
